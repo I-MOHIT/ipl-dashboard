@@ -77,10 +77,10 @@ public class Match {
     public void setTossDecision(String tossDecision) {
         this.tossDecision = tossDecision;
     }
-    public String getmatchWinner() {
+    public String getMatchWinner() {
         return matchWinner;
     }
-    public void setmatchWinner(String matchWinner) {
+    public void setMatchWinner(String matchWinner) {
         this.matchWinner = matchWinner;
     }
     public String getResult() {

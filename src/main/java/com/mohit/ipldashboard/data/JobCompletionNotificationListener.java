@@ -66,7 +66,7 @@ public class JobCompletionNotificationListener extends JobExecutionListenerSuppo
         });
 
       teamData.values().forEach(team -> em.persist(team));
-      teamData.values().forEach(team -> System.out.println(team.getTeamName() + " " + team.getTotalMatches() + " " + team.getTotalWins()));
+      teamData.values().forEach(team -> System.out.println(team.getTeamName() + " Total Matches " + team.getTotalMatches() + " Total Wins " + team.getTotalWins()));
     }
   }
 }
