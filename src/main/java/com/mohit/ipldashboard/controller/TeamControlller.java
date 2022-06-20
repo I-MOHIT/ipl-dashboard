@@ -1,6 +1,8 @@
 package com.mohit.ipldashboard.controller;
 
 import com.mohit.ipldashboard.repository.MatchRepository;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +11,7 @@ import com.mohit.ipldashboard.model.Team;
 import com.mohit.ipldashboard.repository.TeamRepository;
 
 @RestController
+@CrossOrigin
 public class TeamControlller {
 
     private TeamRepository teamRepository;
